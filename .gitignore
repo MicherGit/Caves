@@ -19,3 +19,7 @@ bin/
 
 #fabric
 run/
+
+#Eclipse
+.metadata/
+/.metadata/
