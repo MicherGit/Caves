@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cavesadded",
+  "version": "${version}",
+  "name": "Vanilla Cave Types",
+  "description": "Adds Lush and Dripstone caves to normal worldgen",
+  "authors": [
+    "ZetaTheEliatrope"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cavesadded/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.zeta.caves.NewCaveTypesInitializerClass"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "cavesadded.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*"
+  }
+}
